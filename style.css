@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    min-height: 100vh; /* Full viewport height */
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%; /* Width of the container */
+    max-width: 800px; /* Max width for larger screens */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #ccc; /* Border around the container */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+form {
+    width: 100%; /* Full width for form */
+    max-width: 400px; /* Limit width for larger screens */
+    margin: 0 auto; /* Center align form */
+    padding: 20px; /* Padding inside form */
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555; /* Slightly darker text color */
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    width: 100%; /* Full width for input and button */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 5px; /* Space above input elements */
+    font-size: 14px; /* Font size */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+input[type="text"]:focus,
+button:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #5c9be3; /* Accent color on focus */
+}
+
+button {
+    background-color: #5c9be3; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Space above button */
+}
+
+button:hover {
+    background-color: #4a88cd; /* Darker blue on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* White background */
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Light border */
+}
+
+th, td {
+    padding: 12px; /* Padding inside table cells */
+    text-align: left; /* Left align text */
+}
+
+th {
+    background-color: #f4f4f4; /* Light gray background for header */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Adjust container width for smaller screens */
+    }
+    
+    form {
+        max-width: 100%; /* Full width for form on smaller screens */
+        padding: 15px; /* Adjust padding */
+    }
+    
+    input[type="text"],
+    button {
+        padding: 8px; /* Adjust padding for smaller inputs */
+        font-size: 13px; /* Adjust font size for smaller screens */
+    }
+    
+    table {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+.container2{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
